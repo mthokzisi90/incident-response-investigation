@@ -223,6 +223,7 @@ This investigation demonstrates understanding of:
 * Principle of least privilege
 
 ---
+
 # 🛡️ Security Concepts Demonstrated
 
 This project demonstrates practical understanding of:
