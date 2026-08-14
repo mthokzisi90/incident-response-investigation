@@ -14,23 +14,36 @@
 
 ## 🕐 Timeline of Events
 
-| Time  | Event                     | Analyst Observation                                         |
-| ----- | ------------------------- | ----------------------------------------------------------- |
-| 08:15 | Failed login              | First failed authentication attempt                         |
-| 08:16 | Failed login              | Second failed attempt from the same IP                      |
-| 08:17 | Failed login              | Third consecutive failed attempt                            |
-| 08:19 | Successful login          | Successful authentication follows repeated failures         |
-| 08:23 | File access               | Account accesses corporate files                            |
-| 08:30 | Security alert reviewed   | Analyst begins investigation                                |
-| 08:35 | Account activity reviewed | Analyst checks authentication and file-access logs          |
-| 08:45 | Account contained         | Account temporarily disabled pending investigation          |
-| 09:00 | Credentials reset         | User credentials are reset according to security procedures |
-| 09:15 | Access reviewed           | Active sessions and permissions are reviewed                |
-| 09:30 | Monitoring increased      | Additional monitoring is applied to the account             |
-| 10:00 | Recovery begins           | Normal access is restored after security checks             |
-| 10:30 | Incident documented       | Findings and recommendations are recorded                   |
+| Time  | Event                     | Response Phase       | Analyst Observation                                         |
+| ----- | ------------------------- | -------------------- | ----------------------------------------------------------- |
+| 08:15 | Failed login              | Detection            | First failed authentication attempt                         |
+| 08:16 | Failed login              | Detection            | Second failed attempt from the same IP                      |
+| 08:17 | Failed login              | Detection            | Third consecutive failed attempt                            |
+| 08:19 | Successful login          | Detection            | Successful authentication follows repeated failures         |
+| 08:23 | File access               | Investigation         | Account accesses corporate files                            |
+| 08:30 | Security alert reviewed   | Analysis              | Analyst begins investigation                                |
+| 08:35 | Account activity reviewed | Analysis              | Analyst checks authentication and file-access logs          |
+| 08:45 | Account contained         | Containment           | Account temporarily disabled pending investigation          |
+| 09:00 | Credentials reset         | Containment           | User credentials are reset according to security procedures |
+| 09:15 | Access reviewed           | Investigation         | Active sessions and permissions are reviewed                |
+| 09:30 | Monitoring increased      | Monitoring            | Additional monitoring is applied to the account             |
+| 10:00 | Recovery begins           | Recovery              | Normal access is restored after security checks             |
+| 10:30 | Incident documented       | Lessons Learned       | Findings and recommendations are recorded                   |
 
 ---
+
+## 🛡️ Incident Response Summary
+
+The incident followed a structured investigation process:
+
+1. **Detection** — Repeated failed authentication attempts were identified.
+2. **Analysis** — Authentication and file-access activity was reviewed.
+3. **Containment** — The affected account was temporarily disabled and credentials were reset.
+4. **Monitoring** — Additional monitoring was applied to identify further suspicious activity.
+5. **Recovery** — Normal account access was restored after security checks.
+6. **Documentation** — Findings and recommendations were recorded for future improvement.
+
+This structured approach demonstrates how security analysts can investigate and respond to potentially suspicious authentication activity.
 
 ## 🔎 Key Observations
 
