@@ -8,6 +8,18 @@ It is designed for a fictional corporate environment and demonstrates the basic 
 
 ---
 
+## 📋 Incident Information
+
+| Field | Details |
+|---|---|
+| Incident Type | Suspicious Authentication Activity |
+| Affected Account | `employee01` |
+| Source IP | `203.0.113.25` |
+| Initial Severity | Medium–High |
+| Environment | Fictional corporate environment |
+| Status | Resolved / Monitoring |
+| Primary Concern | Possible unauthorized account access |
+
 ## 🎯 Trigger
 
 This playbook should be considered when security monitoring identifies:
@@ -68,6 +80,39 @@ Repeated failed logins do not automatically confirm an attack.
 The analyst should collect sufficient evidence before making a final determination.
 
 ---
+
+# 🧾 Evidence Preservation
+
+When investigating a potential security incident, relevant evidence should be preserved according to organizational procedures.
+
+Evidence may include:
+
+- Authentication logs
+- SIEM alerts
+- System logs
+- File-access logs
+- Network information
+- Timestamps
+- User account information
+- Relevant security alerts
+
+Analysts should avoid unnecessarily modifying or deleting evidence during an investigation.
+
+Evidence should be documented and handled according to organizational policies.
+
+# 🚨 Escalation Criteria
+
+The incident should be escalated to a senior analyst, incident response team, or appropriate security authority if:
+
+- Multiple user accounts show similar suspicious activity
+- Sensitive or confidential data may have been accessed
+- Unauthorized changes are detected
+- Malware or other indicators of compromise are identified
+- The suspicious activity continues after containment
+- Privileged or administrator accounts are affected
+- Additional systems appear to be compromised
+
+The level of escalation should be determined according to the organization's incident response procedures.
 
 # 3. Containment
 
@@ -178,7 +223,17 @@ This playbook demonstrates:
 
 # 📚 Reference Framework
 
-The response process is broadly aligned with the incident response lifecycle concepts taught in cybersecurity training and the NIST Cybersecurity Framework.
+This playbook is informed by cybersecurity incident response concepts and the **NIST Cybersecurity Framework (CSF)**.
+
+The workflow demonstrates the following general security activities:
+
+- Identify — Understand the affected account, systems, and potential risk.
+- Protect — Apply appropriate access controls and security measures.
+- Detect — Identify suspicious authentication activity.
+- Respond — Investigate and contain the potential incident.
+- Recover — Restore normal operations and monitor for recurrence.
+
+The playbook is intended as an educational example and is not a replacement for an organization's formal incident response procedures.
 
 ---
 
