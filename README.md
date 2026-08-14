@@ -8,6 +8,15 @@ The purpose of this project is to demonstrate my understanding of **incident det
 
 The scenario is based on concepts covered during my cybersecurity learning, including security monitoring, authentication logs, incident response, SIEM, and the NIST Cybersecurity Framework.
 
+## 📂 Project Structure
+
+```text
+incident-response-investigation
+│
+├── README.md
+├── incident-timeline.md
+└── incident-response-playbook.md
+
 ## 🎯 Incident Scenario
 
 A security analyst receives an alert indicating that an employee account has experienced multiple failed login attempts followed by a successful login from an unfamiliar IP address.
@@ -214,6 +223,21 @@ This investigation demonstrates understanding of:
 * Principle of least privilege
 
 ---
+# 🛡️ Security Concepts Demonstrated
+
+This project demonstrates practical understanding of:
+
+* Security monitoring
+* Authentication analysis
+* Incident detection
+* Incident investigation
+* Incident containment
+* Eradication and recovery
+* Access control
+* SIEM concepts
+* Evidence-based decision making
+* Incident documentation
+* NIST Cybersecurity Framework concepts
 
 # 📚 What I Learned
 
@@ -235,15 +259,14 @@ The project also reinforced the importance of accurate logs and effective securi
 
 # 🚀 Future Improvements
 
-I plan to expand this project by adding:
+Future improvements to this project may include:
 
 * A fictional SIEM alert
 * Additional authentication logs
-* An incident timeline
-* An incident response playbook
 * MITRE ATT&CK technique mapping
-* Indicators of compromise
+* Indicators of compromise (IOCs)
 * A final incident report
+* Additional evidence and investigation scenarios
 
 ---
 
