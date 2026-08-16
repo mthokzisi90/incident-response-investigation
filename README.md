@@ -282,7 +282,7 @@ The IP address `203.0.113.25` is used as fictional documentation data.
 ---
 
 **Author:** Mthokozisi Khulu
-**GitHub:** [@mthokozisi90](https://github.com/mthokozisi90)
+**GitHub:** [@mthokzisi90](https://github.com/mthokzisi90)
 
 ⭐ Part of my ongoing journey into IT Support and Cybersecurity.
 
