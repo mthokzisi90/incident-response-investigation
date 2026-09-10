@@ -54,14 +54,14 @@ incident-response-investigation/
 
 ## Screenshots to add
 
-After running the lab, add your own screenshots to `evidence/screenshots/`:
+After running the lab, then added my screenshots to `evidence/screenshots/`:
 
 1. VS Code showing the project structure.
 2. The simulated log file open in VS Code.
 3. A terminal showing the Python analysis output.
 4. The incident report open in VS Code.
 
-Do not include passwords, API keys, personal email addresses, or private paths in screenshots.
+I did not include passwords, API keys, personal email addresses, or private paths in screenshots.
 
 ## Skills demonstrated
 
